@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Professional Website</title>
+<style>
+    /* Global reset & font */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+    }
+
+    body {
+        background-color: #f4f6f8;
+        color: #333;
+    }
+
+    /* Header */
+    header {
+        text-align: center;
+        background-color: #0077b6;
+        color: white;
+        padding: 20px;
+        border-bottom: 5px solid #023e8a;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+    }
+
+    /* Navigation */
+    nav {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        padding: 10px;
+        background-color: #90e0ef;
+        border-bottom: 2px solid #0077b6;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: #023e8a;
+        font-weight: bold;
+        padding: 8px 15px;
+        border: 2px solid transparent;
+        outline: none;
+        transition: 0.3s;
+    }
+
+    nav a:hover {
+        border: 2px solid #0077b6;
+        outline: 2px dashed #90e0ef;
+        color: #0077b6;
+    }
+
+    /* Main section */
+    main {
+        padding: 20px;
+        max-width: 900px;
+        margin: auto;
+    }
+
+    .card {
+        background: white;
+        padding: 20px;
+        margin-bottom: 20px;
+        border: 2px solid #0077b6;
+        outline: 2px solid transparent;
+        border-radius: 8px;
+        transition: 0.3s;
+    }
+
+    .card:hover {
+        outline: 2px dashed #90e0ef;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .card h2 {
+        color: #0077b6;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    .card p {
+        line-height: 1.6;
+        text-align: justify;
+    }
+
+    /* Footer */
+    footer {
+        text-align: center;
+        background-color: #0077b6;
+        color: white;
+        padding: 15px;
+        border-top: 5px solid #023e8a;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>My Professional Website</h1>
+    <p>Using Borders, Outline & Text Properties</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+</nav>
+
+<main>
+    <div class="card">
+        <h2>About Me</h2>
+        <p>
+            I am a passionate web developer creating clean, professional designs 
+            using HTML and CSS. This example demonstrates the use of borders, outlines, 
+            and text styling for a modern look.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>Services</h2>
+        <p>
+            I offer professional web development services with attention to detail, 
+            ensuring each website is responsive, accessible, and visually appealing.
+        </p>
+    </div>
+</main>
+
+<footer>
+    &copy; 2025 My Professional Website | Designed by You
+</footer>
+
+</body>
+</html>

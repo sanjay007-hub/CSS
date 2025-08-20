@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Borders with Images</title>
+  <style>
+    body {
+      background-color: lightblue;
+   
+
+    }
+.borders{
+display:flex;
+flex-wrap:wrap;
+justify-content: center;
+}
+
+    .box {
+      width: 200px;
+      padding: 10px;
+      margin: 10px;
+      border-width: 4px;
+      background-color: white;
+    }
+
+    .box img {
+      width: 100%; 
+      height: auto;
+      display: block;
+    }
+
+    .dotted { 
+     border-style: dotted;
+     border-width: 10px;
+     border-color: green; 
+ }
+    .solid {
+     border-style: solid;
+     border-width: 10px;
+     border-color: green; 
+ }
+    .dashed {
+     border-style: dashed; 
+     border-width: 10px;
+     border-color: purple; 
+}
+    .groove {
+     border-style: groove; 
+     border-width: 10px;
+     border-color: orange; 
+}
+    .ridge  { 
+     border-style: ridge; 
+     border-width: 10px;
+     border-color: yellow; 
+}
+    .inset  {
+     border-style: inset; 
+     border-width: 10px;
+     border-color: blue; 
+}
+    .mixed  { 
+    border-style: dotted dashed solid groove; 
+    border-width: 10px;
+    border-color: red; 
+}
+
+   hr  {
+   border-color: black;
+{
+  </style>
+</head>
+<body>
+
+<center><h1>Border styles</h1></center> <hr>
+<div class="borders">
+
+<div class="box dotted">
+  <img src="https://images.pexels.com/photos/2564889/pexels-photo-2564889.jpeg?cs=srgb&dl=pexels-evonics-2564889.jpg&fm=jpg" alt="Dotted Example">
+</div>
+
+<div class="box solid">
+  <img src="https://images.pexels.com/photos/2564889/pexels-photo-2564889.jpeg?cs=srgb&dl=pexels-evonics-2564889.jpg&fm=jpg" alt="solid Example">
+</div>
+
+<div class="box dashed">
+  <img src="https://images.pexels.com/photos/2564889/pexels-photo-2564889.jpeg?cs=srgb&dl=pexels-evonics-2564889.jpg&fm=jpg" alt="Dashed Example">
+</div>
+
+<div class="box groove">
+  <img src="https://images.pexels.com/photos/2564889/pexels-photo-2564889.jpeg?cs=srgb&dl=pexels-evonics-2564889.jpg&fm=jpg" alt="Groove Example">
+</div>
+
+<div class="box ridge">
+  <img src="https://images.pexels.com/photos/2564889/pexels-photo-2564889.jpeg?cs=srgb&dl=pexels-evonics-2564889.jpg&fm=jpg" alt="Ridge Example">
+</div>
+
+<div class="box inset">
+  <img src="https://images.pexels.com/photos/2564889/pexels-photo-2564889.jpeg?cs=srgb&dl=pexels-evonics-2564889.jpg&fm=jpg" alt="Inset Example">
+</div>
+
+<div class="box mixed">
+  <img src="https://images.pexels.com/photos/2564889/pexels-photo-2564889.jpeg?cs=srgb&dl=pexels-evonics-2564889.jpg&fm=jpg" alt="Mixed Border Example">
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<head>
+  <title>borders</title>
+  <style>
+    * {
+      background-color: lightblue;
+    }
+
+    .box {
+
+      width: 200px;
+      padding: 10px;
+      margin: 10px;
+      border-width: 4px;
+    }
+
+    img {
+      border: 5px outset black;
+      padding: 10px;
+      margin: 10px;
+      border-width: 4px;
+    }
+
+    .dotted {
+      border-style: dotted;
+    }
+
+    .dashed {
+      border-style: dashed;
+    }
+
+    .groove {
+      border-style: groove;
+    }
+
+    .ridge {
+      border-style: ridge;
+    }
+
+    .inset {
+      border-style: inset;
+    }
+
+    .mixed {
+      border-style: dotted dashed solid groove;
+    }
+    h1 {
+      color: black;
+    }
+
+    hr {
+      border-color: black;
+    }
+  </style>
+</head>
+
+<body>
+
+  <center>
+    <h1>Border styles</h1>
+<hr>
+
+    <div class="box dotted">dotted border</div>
+    <div class="box dashed">dashed border</div>
+    <img
+      src="https://images.pexels.com/photos/236047/pexels-photo-236047.jpeg?cs=srgb&dl=clouds-cloudy-countryside-236047.jpg&fm=jpg"
+      alt="My Image" width="150" height="100">
+
+
+    <div class="box groove">groove border</div>
+    <div class="box ridge">ridge border</div>
+    <div class="box inset">inset border</div>
+
+    <div class="box mixed">mixed border</div>
+
+  </center>
+</body>
